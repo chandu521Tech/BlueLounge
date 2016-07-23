@@ -1,0 +1,100 @@
+2016-07-23T07:10:18.782757+00:00 heroku[api]: Enable Logplex by chandu.amity@gmail.com
+2016-07-23T07:10:18.782757+00:00 heroku[api]: Release v2 created by chandu.amity@gmail.com
+2016-07-23T07:11:57.054182+00:00 heroku[api]: Scale to web=1 by chandu.amity@gmail.com
+2016-07-23T07:11:57.054835+00:00 heroku[api]: Deploy fd9b995 by chandu.amity@gmail.com
+2016-07-23T07:11:57.054917+00:00 heroku[api]: Release v3 created by chandu.amity@gmail.com
+2016-07-23T07:11:57.488495+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-23T07:11:57.488542+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-07-23T07:11:59.349744+00:00 heroku[web.1]: Starting process with command `npm start`
+2016-07-23T07:12:02.686350+00:00 app[web.1]: > bluelounge@0.0.0 start /app
+2016-07-23T07:12:02.686337+00:00 app[web.1]: 
+2016-07-23T07:12:02.686360+00:00 app[web.1]: > node ./bin/www
+2016-07-23T07:12:02.686361+00:00 app[web.1]: 
+2016-07-23T07:12:03.104457+00:00 app[web.1]:     ^
+2016-07-23T07:12:03.104427+00:00 app[web.1]:     throw err;
+2016-07-23T07:12:03.104483+00:00 app[web.1]: Error: Cannot find module 'mysql'
+2016-07-23T07:12:03.104470+00:00 app[web.1]: 
+2016-07-23T07:12:03.104360+00:00 app[web.1]: module.js:341
+2016-07-23T07:12:03.104485+00:00 app[web.1]:     at Module.require (module.js:367:17)
+2016-07-23T07:12:03.104486+00:00 app[web.1]:     at Object.<anonymous> (/app/routes/signup.js:3:13)
+2016-07-23T07:12:03.104501+00:00 app[web.1]:     at Module.require (module.js:367:17)
+2016-07-23T07:12:03.114390+00:00 app[web.1]: 
+2016-07-23T07:12:03.125756+00:00 app[web.1]: npm ERR! Linux 3.13.0-91-generic
+2016-07-23T07:12:03.126377+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2016-07-23T07:12:03.126769+00:00 app[web.1]: npm ERR! node v5.11.1
+2016-07-23T07:12:03.104484+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:339:15)
+2016-07-23T07:12:03.104489+00:00 app[web.1]:     at Function.Module._load (module.js:314:12)
+2016-07-23T07:12:03.104487+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:422:10)
+2016-07-23T07:12:03.104486+00:00 app[web.1]:     at require (internal/module.js:20:19)
+2016-07-23T07:12:03.128164+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2016-07-23T07:12:03.128708+00:00 app[web.1]: npm ERR! Exit status 1
+2016-07-23T07:12:03.127802+00:00 app[web.1]: npm ERR! npm  v3.8.6
+2016-07-23T07:12:03.128470+00:00 app[web.1]: npm ERR! bluelounge@0.0.0 start: `node ./bin/www`
+2016-07-23T07:12:03.129277+00:00 app[web.1]: npm ERR! Failed at the bluelounge@0.0.0 start script 'node ./bin/www'.
+2016-07-23T07:12:03.104485+00:00 app[web.1]:     at Function.Module._load (module.js:290:25)
+2016-07-23T07:12:03.128979+00:00 app[web.1]: npm ERR! 
+2016-07-23T07:12:03.104487+00:00 app[web.1]:     at Module._compile (module.js:413:34)
+2016-07-23T07:12:03.129541+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2016-07-23T07:12:03.104488+00:00 app[web.1]:     at Module.load (module.js:357:32)
+2016-07-23T07:12:03.129825+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the bluelounge package,
+2016-07-23T07:12:03.131050+00:00 app[web.1]: npm ERR!     npm bugs bluelounge
+2016-07-23T07:12:03.130355+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2016-07-23T07:12:03.130121+00:00 app[web.1]: npm ERR! not with npm itself.
+2016-07-23T07:12:03.130580+00:00 app[web.1]: npm ERR!     node ./bin/www
+2016-07-23T07:12:03.131289+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2016-07-23T07:12:03.131769+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2016-07-23T07:12:03.130804+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2016-07-23T07:12:03.142032+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2016-07-23T07:12:03.142247+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2016-07-23T07:12:03.131536+00:00 app[web.1]: npm ERR!     npm owner ls bluelounge
+2016-07-23T07:12:03.136991+00:00 app[web.1]: 
+2016-07-23T07:12:04.069109+00:00 heroku[web.1]: Process exited with status 1
+2016-07-23T07:12:04.106236+00:00 heroku[web.1]: State changed from starting to crashed
+2016-07-23T07:12:04.107312+00:00 heroku[web.1]: State changed from crashed to starting
+2016-07-23T07:12:09.009120+00:00 app[web.1]: 
+2016-07-23T07:12:09.009138+00:00 app[web.1]: > bluelounge@0.0.0 start /app
+2016-07-23T07:12:09.009142+00:00 app[web.1]: > node ./bin/www
+2016-07-23T07:12:09.009143+00:00 app[web.1]: 
+2016-07-23T07:12:09.425821+00:00 app[web.1]:     throw err;
+2016-07-23T07:12:09.425836+00:00 app[web.1]: 
+2016-07-23T07:12:09.425835+00:00 app[web.1]:     ^
+2016-07-23T07:12:09.425712+00:00 app[web.1]: module.js:341
+2016-07-23T07:12:09.425840+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:339:15)
+2016-07-23T07:12:09.425839+00:00 app[web.1]: Error: Cannot find module 'mysql'
+2016-07-23T07:12:09.425841+00:00 app[web.1]:     at Function.Module._load (module.js:290:25)
+2016-07-23T07:12:09.425841+00:00 app[web.1]:     at Module.require (module.js:367:17)
+2016-07-23T07:12:09.425842+00:00 app[web.1]:     at require (internal/module.js:20:19)
+2016-07-23T07:12:09.425843+00:00 app[web.1]:     at Object.<anonymous> (/app/routes/signup.js:3:13)
+2016-07-23T07:12:09.425843+00:00 app[web.1]:     at Module._compile (module.js:413:34)
+2016-07-23T07:12:09.425844+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:422:10)
+2016-07-23T07:12:09.425845+00:00 app[web.1]:     at Function.Module._load (module.js:314:12)
+2016-07-23T07:12:09.425845+00:00 app[web.1]:     at Module.load (module.js:357:32)
+2016-07-23T07:12:09.425846+00:00 app[web.1]:     at Module.require (module.js:367:17)
+2016-07-23T07:12:09.447999+00:00 app[web.1]: 
+2016-07-23T07:12:09.461450+00:00 app[web.1]: npm ERR! Linux 3.13.0-91-generic
+2016-07-23T07:12:09.462221+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2016-07-23T07:12:09.462625+00:00 app[web.1]: npm ERR! node v5.11.1
+2016-07-23T07:12:09.463573+00:00 app[web.1]: npm ERR! npm  v3.8.6
+2016-07-23T07:12:09.463863+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2016-07-23T07:12:09.464093+00:00 app[web.1]: npm ERR! bluelounge@0.0.0 start: `node ./bin/www`
+2016-07-23T07:12:09.464309+00:00 app[web.1]: npm ERR! Exit status 1
+2016-07-23T07:12:09.464781+00:00 app[web.1]: npm ERR! Failed at the bluelounge@0.0.0 start script 'node ./bin/www'.
+2016-07-23T07:12:09.465282+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the bluelounge package,
+2016-07-23T07:12:09.465438+00:00 app[web.1]: npm ERR! not with npm itself.
+2016-07-23T07:12:09.464541+00:00 app[web.1]: npm ERR! 
+2016-07-23T07:12:09.465014+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2016-07-23T07:12:09.465638+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2016-07-23T07:12:09.466291+00:00 app[web.1]: npm ERR!     npm bugs bluelounge
+2016-07-23T07:12:09.466508+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2016-07-23T07:12:09.466716+00:00 app[web.1]: npm ERR!     npm owner ls bluelounge
+2016-07-23T07:12:09.466080+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2016-07-23T07:12:09.466930+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2016-07-23T07:12:09.473978+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2016-07-23T07:12:09.473651+00:00 app[web.1]: 
+2016-07-23T07:12:09.474179+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2016-07-23T07:12:09.465864+00:00 app[web.1]: npm ERR!     node ./bin/www
+2016-07-23T07:12:10.636883+00:00 heroku[web.1]: Process exited with status 1
+2016-07-23T07:12:10.672428+00:00 heroku[web.1]: State changed from starting to crashed
+2016-07-23T07:12:38.827420+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=protected-citadel-48808.herokuapp.com request_id=f5cd916f-7c28-41ce-97ad-b555c54a868a fwd="124.123.143.226" dyno= connect= service= status=503 bytes=
+2016-07-23T07:12:40.962018+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=protected-citadel-48808.herokuapp.com request_id=97967159-59e3-46c4-a539-ed4dd631fbc1 fwd="124.123.143.226" dyno= connect= service= status=503 bytes=
+2016-07-23T07:12:41.306456+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=protected-citadel-48808.herokuapp.com request_id=74be6c60-ec92-453b-ac7a-43494864167f fwd="124.123.143.226" dyno= connect= service= status=503 bytes=
